@@ -178,7 +178,7 @@ sessionInfo()
 calibfit2 <- lm(Concentration_M ~ Absorbance, data = calib_clean)
 conc_new <- predict(calibfit2, list(Absorbance=0.6))
 
-# access chem data online 
+
 
 
 

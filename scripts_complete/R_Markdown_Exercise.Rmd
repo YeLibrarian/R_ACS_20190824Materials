@@ -5,6 +5,8 @@ date: "August 24, 2019"
 output:
   word_document: default
   html_notebook: default
+  html_document:
+    df_print: paged
 bibliography: references.bib
 ---
 
